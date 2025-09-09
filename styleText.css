@@ -3,6 +3,7 @@
     text-align: center;
     text-decoration: underline;
 }
-.par1{
+p{
     text-decoration: underline;
+    letter-spacing: 5px;
 }
