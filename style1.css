@@ -4,16 +4,62 @@ html, body{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    /* background-color: #ddd; */
     line-height: 1.65;
     padding-bottom: 1000px;
+  background-image: linear-gradient(to right,  rgb(97, 179, 39), rgb(253, 255, 146));
+}
+.image-container {
+      position: relative;
+    width: 600px;
 }
 
+.image-text {
+    position:absolute;
+    bottom: -330px;
+    left: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.gambar-judul{
+    border-radius: 15px;
+    width: 600px;
+    float: left;
+    box-shadow: 2px 2px 4px #6e6a6a;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.image-gradient {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+      z-index: 1;
+    }
+.sidebar-satu{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 700px;
+}
+.sidebar-dua{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 1000px;
+}
+.kolom-utama{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 .container-satu{
-    width: 800px;
+    width: 1050px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+    border-radius: 5px;
 }
